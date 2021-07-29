@@ -31,9 +31,14 @@ function oneMoreCount(num){
        return num+= 25;
       }
 }
-let closerLook = oneMoreCount(22);
+let closerLook = oneMoreCount(2);
 console.log(closerLook());
 console.log(closerLook());
 console.log(closerLook());
 
+let second = oneMoreCount(11);
+console.log(second());
+console.log(second());
+console.log(second());
+console.log(second());
 
