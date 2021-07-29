@@ -24,3 +24,16 @@ let count = (function ()  {
 console.log(count());
 console.log(count());
 console.log(count());
+///////////////////////
+
+function oneMoreCount(num){
+      return () => {
+       return num+= 25;
+      }
+}
+let closerLook = oneMoreCount(22);
+console.log(closerLook());
+console.log(closerLook());
+console.log(closerLook());
+
+
