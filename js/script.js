@@ -14,11 +14,13 @@ console.log(next(33));
 console.log(next(33));
 //////////////////2222222222222222
 
-function second(p){
-    return (z) => {
-      return   p + z;   
-    } 
-}
-let plane = second(100);
-console.log(plane(20));
-console.log(plane(25));
+let count = (function ()  {
+         let count1 = 0;
+         return () => {
+           return  count1+= 5;
+         }
+})();
+
+console.log(count());
+console.log(count());
+console.log(count());
