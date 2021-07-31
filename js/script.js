@@ -41,4 +41,20 @@ console.log(second());
 console.log(second());
 console.log(second());
 console.log(second());
+////////////////////////////////////
+// for(var i = 0; i <= 5; i++){
+//   (function(x) {
+//     setTimeout(() => console.log(x), x * 2000)
+//   })(i)
+// }
+// console.log(false == '0');
+// console.log(false === '0');
+// console.log(1 < 2 < 3);
+// console.log(3 > 2 > 1);
 
+console.log(1 + '2' + '2');'122'
+console.log(1 + +'2' + '2');'32'
+console.log(1 + -'1' + '2');'2'
+console.log(+'1' + '1' + '2');'112'
+console.log('a' - 'b' + '2');
+console.log('a' - 'b' + 2);
